@@ -4,7 +4,7 @@ import './slider.css'
 function Slider() {
 
   return (
-    <section className='textCenter'>
+    <section className='container-fluid bgimage'>
       <h1 class='text-center text-uppercase fs-1 fw-bolder heading'>
         Welcome to my site
       </h1>
