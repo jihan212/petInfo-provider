@@ -4,6 +4,7 @@ import Navbar from './Navbar/Navbar'
 // import Slider from './Slider/Slider'
 import Input from './Input/Input'
 import Vet from './Vet/Vet'
+import FAQ from './FAQ/FAQ'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             {/* <Slider /> */}
             <Input />
             <Vet />
+            <FAQ />
 
         </div>
     )
