@@ -1,16 +1,20 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
-import Slider from './Slider/Slider'
-import Input from './Input/Input'
 import './Home.css'
+import Navbar from './Navbar/Navbar'
+// import Slider from './Slider/Slider'
+import Input from './Input/Input'
+import Vet from './Vet/Vet'
 
 
-function Home() {
+const Home = () => {
+    
     return (
         <div>
             <Navbar />
-            <Slider />
+            {/* <Slider /> */}
             <Input />
+            <Vet />
+
         </div>
     )
 }
