@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../../images/logo.png'
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
           style={{ textDecoration: 'none' }}
           href='/'
         >
-          petInfo
+          <img src={logo} alt="" />
         </a>
       </div>
     </nav>
